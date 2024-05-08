@@ -6,13 +6,24 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs }: {
-
-    templates = {
-      rust = {
-        path = ./templates/rust;
-	      description = "A template for a Rust flake";
+  outputs = { self, nixpkgs, flake-utils }: 
+    flake-utils.lib.eachDefaultSystem (system:
+      let
+        pkgs = import nixpkgs {
+          inherit system;
+        };
+      in {
+        packages = {
+        };
+        nixosModules = {
+        };
       }
-    }
-  };
+    ) // {
+      templates = {
+        rust = {
+          path = ./templates/rust;
+          description = "A template for a Rust flake";
+        };
+      };
+    };
 }
