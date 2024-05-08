@@ -1,6 +1,4 @@
 {
-  description = "A rust flake template";
-
   inputs = {
     naersk.url = "github:nix-community/naersk/master";
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -26,12 +24,11 @@
             };
           };
         }) // {
-      templates = {
-        default = {
-          path = ./.;
-          description = "A template for a Rust project";
+          templates = {
+            default = {
+              path = ./.;
+              description = "A template for a Rust project";
+            };
+          };
         };
-      };
-
-    };
 }
