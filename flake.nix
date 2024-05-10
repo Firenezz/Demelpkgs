@@ -14,8 +14,10 @@
         };
       in {
         packages = {
+          # Add custom pakages here
         };
         nixosModules = {
+          # Add custom module here
         };
       }
     ) // {
