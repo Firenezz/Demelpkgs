@@ -18,25 +18,18 @@
         ...
       }: let 
         manifest = (builtins.fromTOML (builtins.readFile ./Cargo.toml));
-        
+
         overlay = final: prev: {
           "${manifest.package.name}" = final.callPackage ./. { inherit naersk; };
         };
-
-        overlay-pkgs = import nixpkgs {
-            inherit system;
-            overlays = [
-              self.overlay
-            ];
-          };
       in {
 
-        _module.args.pkgs = import inputs.nixpkgs {
-          inherit system;
-          overlays = [
-            self.overlay
-          ];
-        };
+        _module.args.pkgs = import nixpkgs {
+            inherit system;
+            overlays = [
+              overlay
+            ];
+          };
 
         packages."${manifest.package.name}" = pkgs."${manifest.package.name}";
       };

@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> { } }:
+{ pkgs ? import <nixpkgs> { }, naersk }:
 let manifest = (pkgs.lib.importTOML ./Cargo.toml).package;
 in
 pkgs.rustPlatform.buildRustPackage rec {
