@@ -62,11 +62,11 @@
         "systems-default": "systems-default"
       },
       "locked": {
-        "lastModified": 1715363991,
-        "narHash": "sha256-3cOqpbwb2TaMpciL9VR16d2GgS01g5dMmlqkX9iJlz8=",
+        "lastModified": 1715474103,
+        "narHash": "sha256-tymV51h04GE4g+1QoBQ3GoluOK/zMgikIoEoiIqfE5Y=",
         "owner": "Firenezz",
         "repo": "nix-riscv-toolchain",
-        "rev": "f90d4e97dd8fcce6c1a21ab74e0a582349a4824f",
+        "rev": "64fb1111ce20aeaaa37496f0173c0436c6ddba6c",
         "type": "github"
       },
       "original": {
