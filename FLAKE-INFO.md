@@ -14,16 +14,16 @@ A collection of packages and templates that I use
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/Demelpkgs/Demelpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=781334bc1fec4b38786991ecfafcc970d26d12a4&shallow=1
+Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=9f37ef3afcf0fb95ce71dfda2427a5edc042fde2&shallow=1
 Description:   A collaction of packages and templates that I use
-Path:          /nix/store/rj26hiqn6dk6q9lb3p664ssrxzc374vd-source
-Revision:      781334bc1fec4b38786991ecfafcc970d26d12a4
+Path:          /nix/store/hss8m08aw2gmyppqbbkzfi3vfv1d7dpl-source
+Revision:      9f37ef3afcf0fb95ce71dfda2427a5edc042fde2
 Revisions:     1
-Last modified: 2024-05-10 19:48:57
+Last modified: 2024-05-12 00:53:59
 Inputs:
 ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-├───nix-riscv-toolchain: github:Firenezz/nix-riscv-toolchain/f90d4e97dd8fcce6c1a21ab74e0a582349a4824f (2024-05-10 17:59:51)
+├───nix-riscv-toolchain: github:Firenezz/nix-riscv-toolchain/64fb1111ce20aeaaa37496f0173c0436c6ddba6c (2024-05-12 00:35:03)
 │   ├───flake-parts: github:hercules-ci/flake-parts/e5d10a24b66c3ea8f150e47dfdb0416ab7c3390e (2024-05-02 09:10:30)
 │   │   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/50eb7ecf4cd0a5756d7275c8ba36790e5bd53e33.tar.gz?narHash=sha256-QBx10%2Bk6JWz6u7VsohfSw8g8hjdBZEf8CFzXH1/1Z94%3D (2024-05-02 09:00:52)
 │   ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
@@ -37,7 +37,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=781334bc1fec4b38786991ecfafcc970d26d12a4&shallow=1
+git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=9f37ef3afcf0fb95ce71dfda2427a5edc042fde2&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
