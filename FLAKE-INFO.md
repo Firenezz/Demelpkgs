@@ -14,30 +14,30 @@ A collection of packages and templates that I use
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/Demelpkgs/Demelpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=dd4e5ec5d83b910c73efd9afbfd94d65c91bacea&shallow=1
+Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=a93d47c31559a85c62ab89bb8560baa1afe6fd9a&shallow=1
 Description:   A collaction of packages and templates that I use
-Path:          /nix/store/zjlk8cc6drkj7sw88g82rh9ll5pc58rb-source
-Revision:      dd4e5ec5d83b910c73efd9afbfd94d65c91bacea
+Path:          /nix/store/s8vikv6dbap249v8piv80v4qy3scqrj2-source
+Revision:      a93d47c31559a85c62ab89bb8560baa1afe6fd9a
 Revisions:     1
-Last modified: 2024-05-26 00:54:51
+Last modified: 2024-06-02 00:55:07
 Inputs:
 ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-├───nix-riscv-toolchain: github:Firenezz/nix-riscv-toolchain/4e1f25fa5e976b3936f1a502c71203704fca1df1 (2024-05-26 00:35:23)
-│   ├───flake-parts: github:hercules-ci/flake-parts/8dc45382d5206bd292f9c2768b8058a8fd8311d9 (2024-05-16 13:16:44)
-│   │   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/50eb7ecf4cd0a5756d7275c8ba36790e5bd53e33.tar.gz?narHash=sha256-QBx10%2Bk6JWz6u7VsohfSw8g8hjdBZEf8CFzXH1/1Z94%3D (2024-05-02 09:00:52)
+├───nix-riscv-toolchain: github:Firenezz/nix-riscv-toolchain/b26027d213127b0f72891e160cbfc1393699eec3 (2024-06-02 00:35:30)
+│   ├───flake-parts: github:hercules-ci/flake-parts/2a55567fcf15b1b1c7ed712a2c6fadaec7412ea8 (2024-06-01 23:45:11)
+│   │   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/eb9ceca17df2ea50a250b6b27f7bf6ab0186f198.tar.gz?narHash=sha256-lIbdfCsf8LMFloheeE6N31%2BBMIeixqyQWbSr2vk79EQ%3D (2024-06-01 23:35:37)
 │   ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │   │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-│   ├───nixpkgs: github:nixos/nixpkgs/bfb7a882678e518398ce9a31a881538679f6f092 (2024-05-24 00:06:08)
+│   ├───nixpkgs: github:nixos/nixpkgs/ad57eef4ef0659193044870c731987a6df5cf56b (2024-05-29 02:06:23)
 │   └───systems-default: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-└───nixpkgs: github:nixos/nixpkgs/bfb7a882678e518398ce9a31a881538679f6f092 (2024-05-24 00:06:08)
+└───nixpkgs: github:nixos/nixpkgs/ad57eef4ef0659193044870c731987a6df5cf56b (2024-05-29 02:06:23)
 
 ```
 
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=dd4e5ec5d83b910c73efd9afbfd94d65c91bacea&shallow=1
+git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=a93d47c31559a85c62ab89bb8560baa1afe6fd9a&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
