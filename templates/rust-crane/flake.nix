@@ -46,7 +46,6 @@
                     };
 
                     checks = {
-                        inherit
                         # Build the crate as part of `nix flake check` for convenience
                         my-checks;
                     };
