@@ -5,12 +5,12 @@
     utils.url = "github:numtide/flake-utils";
     flake-parts.url = "github:hercules-ci/flake-parts";
 
-    systems-default = { url = "path:./flake.systems.nix"; flake = false; }; # github:nix-systems/default
+    #systems-default = { url = "path:./flake.systems.nix"; flake = false; }; # github:nix-systems/default
   };
 
-  outputs = { self, nixpkgs, utils, naersk, flake-parts, systems-default, ... } @ inputs:
+  outputs = { self, nixpkgs, utils, naersk, flake-parts, ... } @ inputs:
     flake-parts.lib.mkFlake {inherit inputs;} {
-      systems = import systems-default;
+      #systems = import systems-default;
 
       perSystem = {
         pkgs,
