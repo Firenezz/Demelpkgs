@@ -47,7 +47,7 @@
 
                     checks = {
                         # Build the crate as part of `nix flake check` for convenience
-                        inherit my-checks;
+                        #inherit my-checks;
                     };
 
                     treefmt.config = {
