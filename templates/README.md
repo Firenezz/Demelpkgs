@@ -5,5 +5,5 @@ This repository contains Flake templates for the programming languages I primari
 ### Usage
 
 ```nix
-nix flake new -t github:erictossell/eriixkpkgs#rust
+nix flake new -t github:Firenezz/Demelpkgs#rust
 ```
