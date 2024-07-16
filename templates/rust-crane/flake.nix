@@ -31,7 +31,7 @@
 
                     my-crate-package = pkgs.callPackage ./nix/. { inherit craneLib ;};
                     my-crate = my-crate-package.my-crate;
-                    my-checks = qos-package.checks;
+                    my-checks = my-crate-package.checks;
 
                     devshell = import ./shell.nix { inherit pkgs my-crate; };
                 in {
