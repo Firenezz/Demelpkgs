@@ -10,6 +10,8 @@
         crane.inputs.nixpkgs.follows = "nixpkgs";
 
         treefmt-nix.url = "github:numtide/treefmt-nix";
+
+        systems-default = { url = "github:nix-systems/default"; flake = false; };
     };
 
     outputs = { self, nixpkgs, flake-parts, ... } @ inputs: 
@@ -17,7 +19,7 @@
             imports = [
                 inputs.treefmt-nix.flakeModule
             ];
-            #systems = import systems-default;
+            systems = import systems-default;
 
             perSystem = {
                 system,
