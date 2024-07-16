@@ -17,12 +17,12 @@ A collection of packages and templates that I use
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/Demelpkgs/Demelpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=9042f6c17e8e1d062cad9e4572122dd75fa6813e&shallow=1
+Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=5045ebcc7686c8a3797836b382f8f684603ed640&shallow=1
 Description:   A collaction of packages and templates that I use
-Path:          /nix/store/jrz9hbcagvm874x8qm5ldbc0zlv9p357-source
-Revision:      9042f6c17e8e1d062cad9e4572122dd75fa6813e
+Path:          /nix/store/6i1v0r9q5lg4krb6mrf6adhcx023z0qn-source
+Revision:      5045ebcc7686c8a3797836b382f8f684603ed640
 Revisions:     1
-Last modified: 2024-07-16 19:09:26
+Last modified: 2024-07-16 19:12:56
 Inputs:
 ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
@@ -40,7 +40,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=9042f6c17e8e1d062cad9e4572122dd75fa6813e&shallow=1
+git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=5045ebcc7686c8a3797836b382f8f684603ed640&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
