@@ -6,3 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Nice Folks"]
+description = "A short description of my package"
+documentation = "https://example.com/bar"
