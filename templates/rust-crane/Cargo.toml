@@ -12,3 +12,6 @@ version = "0.1.0"
 authors = ["Nice Folks"]
 description = "A short description of my package"
 documentation = "https://example.com/bar"
+
+[workspace.metadata.crane]
+name = "rust-template"
