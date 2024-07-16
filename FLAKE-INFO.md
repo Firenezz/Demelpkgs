@@ -8,18 +8,21 @@ A collection of packages and templates that I use
 
 - [templates/](templates/)
   - [rust/](templates/rust/)
+  - [rust-crane/](templates/rust-crane/)
+    - [nix/](templates/rust-crane/nix/)
+    - [src/](templates/rust-crane/src/)
     - [src/](templates/rust/src/)
 
 ### Flake Info
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/Demelpkgs/Demelpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=e68a64b0f35787ecc80b825c26963a80978a22c1&shallow=1
+Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=3191d5057c8af43f00487fbee2f9e83bec94a6c4&shallow=1
 Description:   A collaction of packages and templates that I use
-Path:          /nix/store/jlsjbqq9rszcmg0a5b0mnf1k724ms4mz-source
-Revision:      e68a64b0f35787ecc80b825c26963a80978a22c1
+Path:          /nix/store/744prsxqydijh8x9gnygzdlvx2maxv2d-source
+Revision:      3191d5057c8af43f00487fbee2f9e83bec94a6c4
 Revisions:     1
-Last modified: 2024-07-14 00:58:32
+Last modified: 2024-07-16 18:59:32
 Inputs:
 ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
@@ -37,7 +40,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=e68a64b0f35787ecc80b825c26963a80978a22c1&shallow=1
+git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=3191d5057c8af43f00487fbee2f9e83bec94a6c4&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
@@ -53,7 +56,8 @@ git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=e68a64b
 │   └───x86_64-linux
 │       └───riscv-toolchain: package 'riscv64-none-elf-gcc-wrapper-13.3.0'
 └───templates
-    └───rust: template: A template for a Rust flake
+    ├───rust: template: A template for a Rust flake
+    └───rust-crane: template: A template for a Rust flake with crane
 
 ```
 
