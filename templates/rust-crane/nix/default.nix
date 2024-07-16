@@ -7,8 +7,11 @@ let
   src = craneLib.cleanCargoSource ./.;
   
   commonArgs = {
-    inherit (craneLib.crateNameFromCargoToml { inherit src; }) pname version;
+    #inherit (craneLib.crateNameFromCargoToml { inherit src; }) pname version;
     inherit src;
+
+    pname = "my-workspace";
+    version = "0.1.0";
 
     doCheck = true;
 
@@ -21,6 +24,7 @@ let
     nativeBuildInputs = with pkgs; [
 
     ];
+    cargoVendorDir = null;
   };
 in rec {
   cargoArtifacts = craneLib.buildDepsOnly commonArgs;
