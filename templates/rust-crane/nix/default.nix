@@ -1,5 +1,6 @@
 {
-    craneLib
+  pkgs,
+  craneLib
 }:
 let  
   src = craneLib.cleanCargoSource ./.;

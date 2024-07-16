@@ -31,7 +31,7 @@
                     };
                     craneLib = (inputs.crane.mkLib pkgs);
 
-                    my-crate-package = pkgs.callPackage ./nix/. { inherit craneLib ;};
+                    my-crate-package = pkgs.callPackage ./nix/. { inherit pkgs craneLib ;};
                     my-crate = my-crate-package.my-crate;
                     my-checks = my-crate-package.checks;
 
