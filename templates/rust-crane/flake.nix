@@ -14,7 +14,7 @@
         systems-default = { url = "github:nix-systems/default"; flake = false; };
     };
 
-    outputs = { self, nixpkgs, flake-parts, ... } @ inputs: 
+    outputs = { self, nixpkgs, flake-parts, systems-default, ... } @ inputs: 
         flake-parts.lib.mkFlake {inherit inputs;} {
             imports = [
                 inputs.treefmt-nix.flakeModule
