@@ -28,6 +28,10 @@
           path = ./templates/rust;
           description = "A template for a Rust flake";
         };
+        rust-crane = {
+          path = ./templates/rust-crane;
+          description = "A template for a Rust flake with crane";
+        };
       };
     };
 }
