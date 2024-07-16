@@ -1,6 +1,7 @@
 {
   pkgs,
-  craneLib
+  craneLib,
+  advisory-db
 }:
 let  
   src = craneLib.cleanCargoSource ./.;

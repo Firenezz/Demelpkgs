@@ -12,9 +12,13 @@
         treefmt-nix.url = "github:numtide/treefmt-nix";
 
         systems-default = { url = "github:nix-systems/default"; flake = false; };
+        advisory-db = {
+            url = "github:rustsec/advisory-db";
+            flake = false;
+        };
     };
 
-    outputs = { self, nixpkgs, flake-parts, systems-default, ... } @ inputs: 
+    outputs = { self, nixpkgs, flake-parts, systems-default, advisory-db, ... } @ inputs: 
         flake-parts.lib.mkFlake {inherit inputs;} {
             imports = [
                 inputs.treefmt-nix.flakeModule
@@ -31,7 +35,7 @@
                     };
                     craneLib = (inputs.crane.mkLib pkgs);
 
-                    my-crate-package = pkgs.callPackage ./nix/. { inherit pkgs craneLib ;};
+                    my-crate-package = pkgs.callPackage ./nix/. { inherit pkgs craneLib advisory-db ;};
                     my-crate = my-crate-package.my-crate;
                     my-checks = my-crate-package.checks;
 
