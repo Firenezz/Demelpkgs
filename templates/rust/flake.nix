@@ -23,14 +23,6 @@
           "${manifest.package.name}" = final.callPackage ./. { inherit naersk; };
         };
       in {
-
-        _module.args.pkgs = import nixpkgs {
-            inherit system;
-            overlays = [
-              overlay
-            ];
-          };
-
         packages."${manifest.package.name}" = pkgs."${manifest.package.name}";
       };
     };

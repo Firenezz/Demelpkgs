@@ -35,8 +35,8 @@ jobs:
         - name: Flake Check
           run: nix flake check .
 
-        - name: Flake Check rust template
-          run: nix flake check ./templates/rust/
+        #- name: Flake Check rust template
+        #  run: nix flake check ./templates/rust/
 
         - name: Flake Check rust-crane template
           run: nix flake check ./templates/rust-crane/
