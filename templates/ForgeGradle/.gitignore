@@ -1,0 +1,15 @@
+# Created by https://www.toptal.com/developers/gitignore/api/forgegradle,direnv
+# Edit at https://www.toptal.com/developers/gitignore?templates=forgegradle,direnv
+
+### direnv ###
+.direnv
+.envrc
+
+### ForgeGradle ###
+# Minecraft client/server files
+run/
+
+### Nix ###
+# Results from nix-build
+/result
+/result-lib

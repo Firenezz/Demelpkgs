@@ -1,3 +1,5 @@
 /result
 /result-lib
 .direnv
+
+/tests

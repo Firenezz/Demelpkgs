@@ -32,6 +32,10 @@
           path = ./templates/rust-crane;
           description = "A template for a Rust flake with crane";
         };
+        forge-gradle = {
+          path = ./templates/ForgeGradle;
+          description = "A template for Forge gradle minecraft";
+        };
       };
     };
 }
