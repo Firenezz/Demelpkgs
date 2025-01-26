@@ -7,6 +7,9 @@ A collection of packages and templates that I use
 ### Directory Structure
 
 - [templates/](templates/)
+  - [ForgeGradle/](templates/ForgeGradle/)
+    - [nix/](templates/ForgeGradle/nix/)
+    - [workflows/](templates/ForgeGradle/workflows/)
   - [rust/](templates/rust/)
   - [rust-crane/](templates/rust-crane/)
     - [nix/](templates/rust-crane/nix/)
@@ -17,12 +20,12 @@ A collection of packages and templates that I use
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/Demelpkgs/Demelpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=c55bbce4545f3bed7647b383c01f31d8de1a6486&shallow=1
+Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=adf320b24b362e6741f4b7e241020cae89809d2c&shallow=1
 Description:   A collaction of packages and templates that I use
-Path:          /nix/store/9qbz3r0i01b4jhhkjlpz0jkik0npkyjw-source
-Revision:      c55bbce4545f3bed7647b383c01f31d8de1a6486
+Path:          /nix/store/zk2jlfsr97z0q575i77angcm6knr0r1x-source
+Revision:      adf320b24b362e6741f4b7e241020cae89809d2c
 Revisions:     1
-Last modified: 2025-01-19 01:05:23
+Last modified: 2025-01-26 00:05:31
 Inputs:
 ├───flake-utils: github:numtide/flake-utils/11707dc2f618dd54ca8739b309ec4fc024de578b (2024-11-13 21:27:16)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
@@ -40,7 +43,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=c55bbce4545f3bed7647b383c01f31d8de1a6486&shallow=1
+git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=adf320b24b362e6741f4b7e241020cae89809d2c&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
@@ -56,6 +59,7 @@ git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=c55bbce
 │   └───x86_64-linux
 │       └───riscv-toolchain: package 'riscv64-none-elf-gcc-wrapper-14-20241116'
 └───templates
+    ├───forge-gradle: template: A template for Forge gradle minecraft
     ├───rust: template: A template for a Rust flake
     └───rust-crane: template: A template for a Rust flake with crane
 
