@@ -7,9 +7,9 @@ A collection of packages and templates that I use
 ### Directory Structure
 
 - [templates/](templates/)
-  - [ForgeGradle/](templates/ForgeGradle/)
-    - [nix/](templates/ForgeGradle/nix/)
-    - [workflows/](templates/ForgeGradle/workflows/)
+  - [forge-gradle/](templates/forge-gradle/)
+    - [nix/](templates/forge-gradle/nix/)
+    - [workflows/](templates/forge-gradle/workflows/)
   - [rust/](templates/rust/)
   - [rust-crane/](templates/rust-crane/)
     - [nix/](templates/rust-crane/nix/)
@@ -20,12 +20,12 @@ A collection of packages and templates that I use
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/Demelpkgs/Demelpkgs?shallow=1
-Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=adf320b24b362e6741f4b7e241020cae89809d2c&shallow=1
+Locked URL:    git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=0e809f9bd4bcc1e7b1b025fa0e0c74c19e118cdf&shallow=1
 Description:   A collaction of packages and templates that I use
-Path:          /nix/store/zk2jlfsr97z0q575i77angcm6knr0r1x-source
-Revision:      adf320b24b362e6741f4b7e241020cae89809d2c
+Path:          /nix/store/nz220wbfkz8ccnv1skwk2hih93m58m4k-source
+Revision:      0e809f9bd4bcc1e7b1b025fa0e0c74c19e118cdf
 Revisions:     1
-Last modified: 2025-01-26 00:05:31
+Last modified: 2025-01-26 00:14:17
 Inputs:
 ├───flake-utils: github:numtide/flake-utils/11707dc2f618dd54ca8739b309ec4fc024de578b (2024-11-13 21:27:16)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
@@ -43,7 +43,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=adf320b24b362e6741f4b7e241020cae89809d2c&shallow=1
+git+file:///home/runner/work/Demelpkgs/Demelpkgs?ref=refs/heads/main&rev=0e809f9bd4bcc1e7b1b025fa0e0c74c19e118cdf&shallow=1
 ├───nixosModules
 │   ├───aarch64-darwin: NixOS module
 │   ├───aarch64-linux: NixOS module
